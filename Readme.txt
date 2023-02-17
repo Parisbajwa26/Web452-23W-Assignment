@@ -15,4 +15,5 @@ step 2 // view
 
 step 3 //models
 0130 added models>Spunge.cs 
-0138 installed package manger
+0138 installed package manager console
+0145 edit startup.cs and appsettings.json

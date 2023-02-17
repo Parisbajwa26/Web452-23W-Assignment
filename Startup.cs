@@ -33,8 +33,13 @@ namespace Spunges
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
-            services.AddRazorPages();
+            services.AddDbContext<SpungeContext>(options =>
+   options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<SpungesContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("SpungesContext")));
         }
+      
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
