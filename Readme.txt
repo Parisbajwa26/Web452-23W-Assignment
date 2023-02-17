@@ -12,3 +12,7 @@ step 2 // view
 0110 changes in index.cshtml
 0114 done all changes in layout.cshtml
 0123 added view>HelloWorld> Welcome.cshtml
+
+step 3 //models
+0130 added models>Spunge.cs 
+0138 installed package manger
