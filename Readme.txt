@@ -3,7 +3,11 @@ Project name:Spunges
 
 1248 EST 
 
-step 1 
+step 1 //Controller
 1252 added HelloWorldController.cs
 1259 changes in HelloWorldController.cs
 
+step 2 // view
+0108 added helloWorld folder and index.cshtml
+0110 changes in index.cshtml
+0114 done all changes in layout.cshtml
