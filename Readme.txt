@@ -25,3 +25,5 @@ Update-Database)
 
 
 1043 Added two entries in layout.cshtml
+
+ 1158 CSS styling  in aboutUs.cshtml and Index.csHtml
